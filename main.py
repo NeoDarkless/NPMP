@@ -10,7 +10,25 @@ cmd_dict = {
     "exit": "Exits the program"
 }
 
-print("Welcome to NPMP. Enter *help* for a list of commands.")
+print("""                                                                                                                                                                       
+NNNNNNNN        NNNNNNNN PPPPPPPPPPPPPPPPP    MMMMMMMM               MMMMMMMM PPPPPPPPPPPPPPPPP   
+N:::::::N       N::::::N P::::::::::::::::P   M:::::::M             M:::::::M P::::::::::::::::P  
+N::::::::N      N::::::N P::::::PPPPPP:::::P  M::::::::M           M::::::::M P::::::PPPPPP:::::P 
+N:::::::::N     N::::::N PP:::::P     P:::::P M:::::::::M         M:::::::::M PP:::::P     P:::::P
+N::::::::::N    N::::::N   P::::P     P:::::P M::::::::::M       M::::::::::M   P::::P     P:::::P
+N:::::::::::N   N::::::N   P::::P     P:::::P M:::::::::::M     M:::::::::::M   P::::P     P:::::P
+N:::::::N::::N  N::::::N   P::::PPPPPP:::::P  M:::::::M::::M   M::::M:::::::M   P::::PPPPPP:::::P 
+N::::::N N::::N N::::::N   P:::::::::::::PP   M::::::M M::::M M::::M M::::::M   P:::::::::::::PP  
+N::::::N  N::::N:::::::N   P::::PPPPPPPPP     M::::::M  M::::M::::M  M::::::M   P::::PPPPPPPPP    
+N::::::N   N:::::::::::N   P::::P             M::::::M   M:::::::M   M::::::M   P::::P            
+N::::::N    N::::::::::N   P::::P             M::::::M    M:::::M    M::::::M   P::::P            
+N::::::N     N:::::::::N   P::::P             M::::::M     MMMMM     M::::::M   P::::P            
+N::::::N      N::::::::N PP::::::PP           M::::::M               M::::::M PP::::::PP          
+N::::::N       N:::::::N P::::::::P           M::::::M               M::::::M P::::::::P          
+N::::::N        N::::::N P::::::::P           M::::::M               M::::::M P::::::::P          
+NNNNNNNN         NNNNNNN PPPPPPPPPP           MMMMMMMM               MMMMMMMM PPPPPPPPPP          
+                                                                                                                                                                              
+Welcome to NPMP. Enter *help* for a list of commands.""")
 
 while True:
     cmd = input("> ")
